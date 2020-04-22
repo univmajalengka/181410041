@@ -1,0 +1,93 @@
+/* CSS Document */
+
+body{
+background-color:#3399FF;
+}
+
+#wrapper{
+	margin:0px auto;
+	width:950px;
+	height:auto;
+	font-family:Ebrima, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	box-shadow:0 0 7px;
+	border-radius:10px;
+}
+
+#header{
+	width:940px;
+	padding:5px;
+	height:220px;
+	background-image:url(Gambar/header.jpg);
+	border-bottom:#0c7fb0 1px solid;
+	color:#FF6600;
+	border-radius:10px 10px 0px 0px;
+	background-color:#000000;
+	font-size: 36px;
+	font-style: oblique;
+}
+
+#menu{
+	width:200px;
+	height:770px;
+	padding:5px;
+	margin:5px;
+	float:left;
+	background:#999999;
+	border-radius:5px;
+}
+#left{
+	width:200px;
+	height:770px;
+	padding:5px;
+	margin:5px;
+	float:left;
+	background:#999999;
+	border-radius:5px;
+}
+
+.leftcontent {
+	background:#CCCCCC;
+	font-size:12px;
+	width:auto;
+	height:auto;
+	color:#000000;
+	border-radius:5px;
+	margin:10px;
+	text-align:center;
+	padding:10px 5px 10px 5px;
+	box-shadow:0px 2px 2px 0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.leftcontent:hover {
+	cursor:pointer;
+}
+
+#content{
+	width:auto;
+	height:760px;
+	padding:10px;
+	background-color:#FFFFFF;
+	border-radius:5px;
+	margin-top:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	margin-left:209px;
+	overflow:scroll;
+}
+
+#clearer{
+	clear:both;
+}
+
+#footer {
+	background:linear-gradient(#FFFFFF, #0066FF);
+	height:50px;
+	width:910px;
+	border-top:#FF9900 2px solid;
+	padding:25px 20px 25px 20px;
+	color:#000000;
+	text-align:right;
+	border-radius:0px 0px 10px 10px;
+	font-size:12px;
+}
